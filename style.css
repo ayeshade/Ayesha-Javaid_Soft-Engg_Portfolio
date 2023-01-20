@@ -1,0 +1,251 @@
+/* Write CSS Here */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Trirong", serif;
+  background: lightgray;
+}
+
+/* Style for Hading*/
+h2 {
+  font-family: "Audiowide", sans-serif;
+}
+
+nav {
+  font-size: 120%;
+  display: flex;
+  width: 84%;
+  margin: auto;
+  padding: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: red;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.container {
+  width: 100%;
+  height: 560px;
+  padding-top: 24px;
+}
+
+.introduction {
+  width: 50%;
+  float: left;
+  padding-top: 10%;
+}
+
+.introduction h2 {
+  font-size: 50px;
+  font-family: "Lucida Console", "Courier New", monospace;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.introduction h3 {
+  color: Maroon;
+}
+
+button {
+  background-color: black;
+  text-decoration: none;
+  color: white;
+  padding: 15px;
+  font-size: 24px;
+  margin: 4px 2px;
+
+}
+
+.image {
+  width: 50%;
+  padding-top: 5%;
+  float: right;
+  overflow: hidden;
+}
+
+.image img {
+  height: 100%;
+  width: 90%;
+  padding: 16px;
+}
+
+.container-1 {
+  width: 90%;
+  height: 500px;
+  padding-top: 24px;
+}
+
+.pic {
+  width: 50%;
+  padding-top: 5%;
+  float: left;
+  overflow: hidden;
+}
+
+.pic img {
+  height: 100%;
+  width: 80%;
+  padding: 16px;
+}
+
+.intro {
+  width: 40%;
+  float: right;
+  padding-top: 6%;
+}
+
+.intro h2 {
+  font-size: 30px;
+  font-family: "Lucida Console", "Courier New", monospace;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.intro h3 {
+  color: Maroon;
+}
+
+.intro img {
+  height: 10%;
+  width: 15%;
+  padding: 16px;
+}
+
+.container-2 {
+  width: 90%;
+  height: 500px;
+  padding-top: 24px;
+}
+
+.picture {
+  width: 50%;
+  padding-top: 5%;
+  float: left;
+  overflow: hidden;
+}
+
+.picture img {
+  height: 110%;
+  width: 80%;
+  padding: 16px;
+}
+
+.text {
+  width: 40%;
+  float: right;
+  padding-top: 4%;
+}
+
+.text h2 {
+  font-size: 30px;
+  font-family: "Lucida Console", "Courier New", monospace;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.text h3 {
+  color: Maroon;
+}
+
+.text img {
+  height: 10%;
+  width: 15%;
+  padding: 16px;
+}
+
+
+.container-3 {
+  width: 90%;
+  height: 500px;
+  padding-top: 24px;
+}
+
+.image2{
+  width: 50%;
+  padding-top: 5%;
+  float: left;
+  overflow: hidden;
+}
+
+.image2 img {
+  height: 100%;
+  width: 80%;
+  padding: 16px;
+}
+
+.text2 {
+  width: 45%;
+  float: right;
+  padding-top: 4%;
+}
+
+.text2 h2 {
+  font-size: 30px;
+  font-family: "Lucida Console", "Courier New", monospace;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.text2 h3 {
+  color: Maroon;
+}
+
+.text2 img {
+  height: 10%;
+  width: 15%;
+  padding: 16px;
+}
